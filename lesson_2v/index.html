@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--Кодирование текста-->
+	<meta charset="UTF-8">
+	<!--Настройка вьюпорта(адаптив,маштаб,тд)-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Заголовок страницы в браузере-->
+	<title>Contacts</title>
+</head>
+
+<body>
+	<!-- Коментарий(Контрол + точка) -->
+	<!-- LOREM - можно выводить 5-10 слов.Либо *5-10 абзацов -->
+	<!-- ALT+W(Заворачивает текст в <p>) -->
+	<!-- BR - Прерывает рядок текста <br> -->
+
+	<!-- А - Гипертекстовое послание (с закрывающим елементом) -->
+	<!-- <a href="Адреса">Текст (анкор)</а> -->
+	<!-- OL+LI - Номерированный список  -->
+	<!-- UL+LI  - Маркерированный список.НЕЛЬЗЯ ИСПОЛЬЗОВАТЬ ОТДЕЛЬНО.ЛИ без УЛ  -->
+	<!-- TITLE - подсказка,выбивает имя при наведение курсора -->
+
+
+
+
+	<!-- СЕМАНТИКА -->
+
+	<!-- Теги для строительства(строительные) -->
+	<!-- Строительство структуры(макет,скелет) -->
+	<!-- Строительные теги никак не меняют контент -->
+
+	<!-- HEADER - Строительный тег для постройки верхней части сайта\сексции (с закрывающим елементом) -->
+	<header>
+		<!-- Наполнение тега(другие теги,контент) -->
+	</header>
+	<!-- FOOTER - Строительный тег для постройки нижней части сайта\секции (с закрывающим елементом) -->
+	<footer>
+		<!-- Наполнение тега (другие теги,контент) -->
+	</footer>
+	<!-- MAIN - Строительный тег для постройки главной части сайта (должен быть только один на странице) (с закрывающим елементо) -->
+	<main>
+		<!--Наполнение тега(другие теги,контент)  -->
+	</main>
+
+	<!-- DIV - Строительный тег без конкретного назначения (с закрывающим елементом) -->
+	<div>
+		<!--Наполнение тега(другие теги,контент)  -->
+	</div>
+
+	<!-- Cтандартная конструкция сайта -->
+	<header>
+		Текст
+	</header>
+	<main>
+		Текст
+	</main>
+	<footer>
+		Текст
+	</footer>
+
+
+	<!-- Теги для контента(контентные) -->
+	<!--Контентные могут менять контент  -->
+
+	<!-- H1-H6 Теги для заголовков (с закрывающим елементом) -->
+	<h1>Заголовок №1</h1> <!--Тольео один на странице потому что он главный-->
+	<h2>Заголовок №2</h2>
+	<h3>Заголовок №3</h3>
+	<h4>Заголовок №4</h4>
+	<h5>Заголовок №5</h5>
+	<h6>Заголовок №6</h6>
+
+	<!-- P - Тег параграфа(с закрывающим елементом) -->
+	<p>
+		Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, sequi! Repellat, quibusdam asperiores! Dolor
+		sunt eius, officia quibusdam distinctio quo est fugiat nihil laudantium porro doloribus aliquid voluptate
+		dignissimos corrupti!
+	</p>
+
+	<!-- MARK та SPAN - Выделение слова(ов) (с закрывающим елементом) -->
+	<p>
+		Lorem,<mark ipsum>dolor</mark> sit amet <span>consectetur adipisicing elit</span>. Corporis praesentium soluta,
+		perspiciatis natus inventore veniam qui nisi? Autem quibusdam omnis officia dignissimos odio reprehenderit? Ea qui
+		cupiditate maxime quidem earum.
+	</p>
+
+	<!-- BR - Прерывает рядок текста (без закрывающего елемента) -->
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Sed dolor adipisci itaque ipsa corrupti, explicabo
+		iusto dolores quis iure dicta exercitationem totam sunt ducimus delectus at nemo tempora in laboriosam.
+	</p>
+
+	<!-- UL+LI  - Маркерированный список (с закрыващим елементом)НЕЛЬЗЯ ИСПОЛЬЗОВАТЬ ОТДЕЛЬНО.ЛИ без УЛ  -->
+	<ul>
+		<li>Пункт списка</li>
+		<li>Lorem ipsum <mark>dolor sit amet consectetur</mark> adipisicing elit. Ab corporis minus dicta vitae voluptatem
+			veniam, accusantium et nihil quae sapiente illum sint similique alias, odio dolore earum qui illo explicabo.
+		</li>
+		<li>Пункт списка</li>
+		<li>Пункт списка</li>
+	</ul>
+
+	<!-- OL+LI - Номерированный список (с закрывающим елементом) -->
+	<ol>
+		<li>Пункт списка</li>
+		<li>Lorem ipsum <mark>dolor sit amet consectetur</mark> adipisicing elit. Ab corporis minus dicta vitae voluptatem
+			veniam, accusantium et nihil quae sapiente illum sint similique alias, odio dolore earum qui illo explicabo.
+		</li>
+		<li>Пункт списка</li>
+		<li>Пункт списка</li>
+		<ol>
+
+			<!-- IMG - Вывод картинки (без закрывающего елемента) -->
+			<!-- 
+			Атрибуты:
+			src - путь к изображению(файлу)
+			alt - альтернативный текст
+	 -->
+			<img src="img/photo_2024-03-22_16-37-04.jpg" alt="Изображение">
+
+			<!-- А - Гипертекстовое послание (с закрывающим елементом) -->
+			<!-- <a href="Адреса">Текст (анкор)</а> -->
+
+			<a href="https://google.com">
+				Google
+			</a>
+
+			<!-- Атрибут target - устонавливает
+			где именно должны открыться адресса -->
+			<a target="_blank" href="https://google.com">
+				Google в новой вкладке
+			</a>
+
+			<!-- Частые атрибуты -->
+			<!-- 
+			СLASS - добавляет клас(класы)
+			имена класов пишем латынью(лучше английские слова),
+			в нижнем реестре,
+			пробел меняем на дефиз
+
+			Каждого тега мы можем добавлять уйму 
+			класов(через пробел) в одном атрибуте class
+		 -->
+			<!-- DIV с класом block(.block) -->
+			<div class="block"></div>
+			<!-- P с класом block(p.text) -->
+			<p class="text"></p>
+			<!-- DIV с класами block И red -->
+			<div class="block red"></div>
+
+			<!-- 
+				TITLE - подсказка 
+			-->
+			<a target="_blank" title="На сайт Google" href="https://google.com" class="link">
+				Google
+			</a>
+			<div title="Это текст рыба" class="text">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est cum, reprehenderit tempore sunt quaerat illo
+				ratione sequi magnam deserunt impedit dolorem! Fuga possimus recusandae vitae nesciunt corrupti
+				necessitatibus ipsam repellendus?
+			</div>
+
+			<!-- 
+				ID - УНИКАЛЬНЫЙ идентификатор
+				Значение ID должно быть уникальным для html страницы
+			-->
+			<div class="text">
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, asperiores. Exercitationem consectetur
+					dicta iusto ad nihil ut ipsa quae placeat reprehenderit
+					deleniti quo aliquid doloribus perspiciatis magni, culpa ratione odio.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet.
+				</p>
+				<p id="some-unique-id">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque et nihil illo culpa iure quod impedit
+					quam? A
+					sunt sit maiores, praesentium natus, nulla earum molestiae itaque dolores et harum.
+					Rerum cumque eos aperiam doloribus obcaecati temporibus molestiae! Illum
+					ducimus quod pariatur accusamus hic libero sint excepturi voluptate quas consectetur, autem repellat et
+					maxime distinctio expedita optio qui dolore ut.
+					Illum facere, est ipsa voluptatem at nam perferendis, cum eveniet ex doloremque placeat odit, dolorum ut
+					officiis commodi quasi labore
+					distinctio consequuntur quae error quo iusto excepturi adipisci? Quam, nostrum.
+				</p>
+			</div>
+
+			<!-- БЛОЧНЫЕ,СТРОЧНЫЕ и БЛОЧНО СТРОЧНЫЕ теги -->
+			<!-- Блочные теги .
+				Все строительные(div,header,footer,main и другие)-->
+			<!-- Контентные теги.
+				(h1-h6,p,ul,ol,li) -->
+			<!-- Строковые теги.
+					(span,mark,a,br) -->
+			<!-- Блочно-строчный тег.
+					(img) -->
+
+			<!-- 
+			Ширина Блочного 
+			тега всегда занимает
+			ВСЮ ширину родительского елемента.
+			Высота формируеться контентом в середине.
+			Блочный тэг всегда начинаеться с нового рядка
+		 -->
+
+			<!-- 
+				Ширина Строкового
+				тега занимает ширину по ширине
+				контенту всередине него.
+				Высота формируеться контентом внутри.
+				Строковый тег пытаеться разместитьься в рядок
+				вместе с другими строковыми тегами или текстом.
+				вместе с другими строковыми,блочно-строковыми тегами или текстом.
+			 -->
+
+			<!-- 
+				Ширина Блочно-строкового
+				тега занимает ширину по ширине
+				контента внутри него.
+				Высота формируеться контентом внутри.
+				Блочно-строковый тег пытаеться разметиться в рядок
+				вместе с другими строковыми,блочно-строковыми тегами или текстом.
+			  -->
+
+			<!-- HTML вложенность и конструкции -->
+			<!-- 
+		Общее правило вложенности:
+		В большенстве строковых тегов
+		нельзя вставлять блочные теги
+	 -->
+			<!-- В основном вложенность выполняеться так: -->
+			<!-- 
+		строительные теги -> теги для контента
+	  -->
+
+			<!-- ИСКЛЮЧЕННИЯ --> _______
+			<!-- 
+		В тег А допустимо вставлять строительные теги,
+		если этого требует макет дизайна.
+	   -->
+			<!-- 
+	<a href="#">
+		<div>
+			<p>
+				<span></span>
+			</p>
+		</div>
+	</a> 
+-->
+
+			<!-- НЕ ПРАВИЛЬНО --> _______
+			<!--
+	 <span>
+		<header></header>
+		<div></div>
+		<footer></footer>
+		<h1></h1>
+		<p></p>
+	</span>
+	 -->
+
+			<!-- НЕПРАВИЛЬНО (UL) --> ______
+			<!-- вставлять в списки что либо кроме LI -->
+			<!-- 
+	<ul>
+		<a href=""></a>
+	</ul>
+ -->
+			<!-- ПРАВИЛЬНО -->_________
+			<!-- <ul>
+						<li>
+							<a href=""></a>
+						</li>
+ 					</ul> -->
+
+			<!-- ПРАВИЛЬНО -->
+			<!-- <div>
+				<div></div>
+			</div> -->
+
+			<!-- САЙТ КОТОРЫЙ ПРОВЕРЯЕТ ВЛОЖЕНИЕ ТЕГОВ--> caninclude.glitch.me
+
+			<!-- УРОВНИ ВЛОЖЕНИЯ -->
+
+			<!-- Нулевой уровень вложенности -->
+			<header><!--Родительский тег для тега DIV-->
+				<!-- 1-й (непосредственый) уровень вложенности тега HEADER -->
+				<div>
+					<!-- 2-й уровень вложенности относительно тега HEADER  -->
+					<!-- 1-й (непосредсивенный) уровень вложенности относительно тега DIV -->
+					<div>
+
+					</div><!--Дочерним тегом для тега HEADER-->
+				</div>
+
+				<!-- 1-й (непосредственный) уровень вложенности тега HEADER -->
+				<div>
+					<!-- 2-й (непосредственный) уровень вложенности относительно тега HEADER -->
+					<!-- 1-й (непосредсивенный) уровень вложенности относительно тега DIV -->
+					<p>
+						<!-- 3-й уровень вложенности относительно тега HEADER  -->
+						<!-- 2-й уровень вложенности относительно тега DIV  -->
+						<!-- 1-й (непосредственный) уровень вложенности относительно тега P  -->
+						<a href="#"></a>
+					</p>
+				</div>
+			</header>
+
+			<!-- Конструкции --> ВАЖНО ВАЖНО ВАЖНО
+
+			<!-- Обычная конструкция ШАПКИ сайта --> ШАБЛОН
+			<!-- <header>
+			<div>
+				<a href="#"></a>
+				<ul>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="@"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+				</ul>
+				<div></div>
+			</div>
+		</header>
+-->
+			<!-- Обычная конструкция ПОДВАЛА сайта --> ШАБЛОН
+			<!-- <footer>
+	<div>
+		<a href="#"></a>
+		<ul>
+			<li>
+				<a href="@"></a>
+			</li>
+			<li>
+				<a href="#"></a>
+			</li>
+			<li>
+				<a href="#"></a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href=""></a>
+			</li>
+			<li>
+				<a href="#"></a>
+			</li>
+			<li>
+				<a href="#"></a>
+			</li>
+		</ul>
+		<div></div>
+	</div>
+</footer> -->
+
+			<!--Обычна конструкция ТЕЛА сайта  --> ШАБЛОН
+			<!-- <main>
+			<div>
+				<h1></h1>
+				<p></p>
+				<p>
+					<a href></a>
+					<span></span>
+					<mark></mark>	
+					<br>
+				</p>
+				<p></p>
+				<p></p>
+				<h2></h2>
+				<p></p>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<h2></h2>
+				<p></p>
+				<ol>
+					<li></li>
+				</ol>
+				<h3></h3>
+				<p></p>
+			</div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</main>
+ -->
+
+			<!--Конструкция ТЕКСТОВОЙ страници  -->
+			<header>
+				<div>
+					<a href="#"></a>
+					<ul>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="@"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+					<div></div>
+				</div>
+			</header>
+			<main>
+				<div>
+					<h1></h1>
+					<p></p>
+					<p>
+						<a href></a>
+						<span></span>
+						<mark></mark>
+						<br>
+					</p>
+					<p></p>
+					<p></p>
+					<h2></h2>
+					<p></p>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<h2></h2>
+					<p></p>
+					<ol>
+						<li></li>
+					</ol>
+					<h3></h3>
+					<p></p>
+				</div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</main>
+			<footer>
+				<div>
+					<a href="#"></a>
+					<ul>
+						<li>
+							<a href="@"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href=""></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+					<div></div>
+				</div>
+			</footer>
+
+			<!-- Пример вложенности в тег А -->
+			<!-- Обе ссылки ведут на одну и ту же страницу -->
+			<!-- 
+		<div>
+			<div>
+				<a href="contacts.html">
+					<img src="img/honey.jpg" alt="Honey">
+				</a>
+			</div>
+			<div>
+				<a href="contacts.html">Text</a>
+			</div>
+		</div>
+	 -->
+
+			<!-- Оптимизированный вариант 
+		Вместо DIV(выше) вложили в конструкцию A -->
+			<!-- 
+		<a href="contacts.html">
+			<div>
+				<img src="img/honey.jpg" alt="Honey">
+			</div>
+			<div>
+				Text
+			</div>
+		</a>
+		 -->
+
+			<!--  ------------------------ -->
+			<!-- ЗАПРЕЩАЕТЬСЯ -->
+			<!--  ------------------------ -->
+
+			<!-- Вставлять А в А -->
+			<!-- 
+		<a href="#">
+			<a href="#"></a>
+		</a>
+ -->
+
+			<!-- Оставлять пустой тег Р -->
+			<!-- <p></p> -->
+
+			<!--Оставлять пустым атрибуты SRC HREF ALT  -->
+			<!-- 
+		<img src alt>
+		<a href></a>
+-->
+			<!-- Не забывать про назначение тегов -->
+			<!-- 
+			Використовуємо P для виводу тексту, 
+			A для посилання, 
+			SPAN/MARK для виділення,
+			BR для переводу тексту в новий рядок
+			H1-H6 для заголовків
+-->
+
+			<!-- Практический пример -->
+			<!-- Страница статтьи -->
+
+			<header>
+				<!-- Какае то конструкция -->
+				<div>
+					<ul>
+						<li>
+							<a href="#section-1">Раздел №1</a>
+						</li>
+						<li>
+							<a href="#section-2">Раздел №2</a>
+						</li>
+						<li>
+							<a target="_blank" href="contacts.html"">Контакты</a>
+						</li>
+					</ul>
+				</div>
+			</header>
+			<main>
+				<div>
+					<h1 id=" section-1">Заголовок статьи</h1>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, odit aliquid?
+									Impedit architecto quia consectetur <a target="_blank" href="https://google.com">quidem</a>
+									dolorum
+									molestias, harum
+									dolorem culpa inventore libero illum.
+									Similique sit nemo eaque ipsam doloremque!
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Enim doloribus saepe vel fugit ab reiciendis incidunt similique nihil rerum blanditiis
+									accusantium
+									corrupti quam iste minima quos tempore ea, consequatur quod.
+								</p>
+								<ul>
+									<li>Пункт </li>
+									<li>Пункт </li>
+									<li>Пункт </li>
+									<li>Пункт </li>
+									<li>Пункт </li>
+								</ul>
+								<h2 id="section-2">Подзаголовок</h2>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, odit aliquid?
+									Impedit architecto quia consectetur <a target="_blank" href="https://google.com">quidem</a>
+									dolorum
+									molestias, harum
+									dolorem culpa inventore libero illum.
+									Similique sit nemo eaque ipsam doloremque!
+								</p>
+								<img src="img/photo_2024-03-22_16-37-04.jpg" alt="hello">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Enim doloribus saepe vel fugit ab reiciendis incidunt similique nihil rerum blanditiis
+									accusantium
+									corrupti quam iste minima quos tempore ea, consequatur quod.
+								</p>
+								<!-- И так далее -->
+				</div>
+				</main>
+</body>
+
+</html>
