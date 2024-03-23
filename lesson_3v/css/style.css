@@ -1,0 +1,35 @@
+@import url("reset.css");
+
+
+p {
+	color: blue;
+}
+h1 {
+	color: black;
+}
+a {
+	color: aliceblue;
+}
+.lesson {
+	color: beige;
+}
+.abs {
+	color: blue;
+}
+#some-id {
+	color: blanchedalmond;
+}
+[class*="ter"]{
+	color: blueviolet;
+}
+div.abs {
+	color: black;
+}
+.title,
+.text,
+li {
+	color: aquamarine;
+}
+#hello {
+	color: rgb(235, 231, 35);
+}
