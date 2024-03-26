@@ -1,0 +1,187 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Workbench:BLED@27&display=swap') */
+
+/* Подключение шрифтов ВЫШЕ ЧЕМ РЕСЕТ!! */
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');  */
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);	
+/* @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap')
+ */
+
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+
+body {
+	font-family: "Quicksand", serif;
+	font-weight: 300;
+	font-size: 16px;
+	font-style: normal;
+}
+.secondary-title {
+	font-family: "Causten", sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	font-style: italic;
+	text-decoration: overline;
+	color: green;
+	text-shadow: -5px 5px 10px greenyellow;
+}
+
+.third-title {
+	text-decoration:line-through
+}
+
+.nowrap-text {
+	font-size: 30px;
+	font-style: oblique;
+	text-shadow: 10px -5px 5px red
+}
+
+.thin {
+	font-weight: 100;
+	text-align: right;
+}
+.light {
+	font-weight: 300;
+	text-decoration: underline;
+}
+.regular {
+	font-weight: 400;
+}
+.medium {
+	font-weight: 500;
+}
+.semibold {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.bold {
+	font-weight: 700;
+	text-transform: lowercase;
+}
+.black {
+	font-weight: 900;
+}
+
+.main-title {
+	font-size: 40px;
+	color: #2b2929;
+	font-style: normal;
+	margin-top: 0;
+	text-align: center;
+	font-family: "Proxima Nova",sans-serif;
+	font-weight: 400;
+	line-height: 48px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.crovatto-text {
+	color: #2b2929;
+	font-size: 16px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: left;
+	font-family: "Proxima Nova",sans-serif;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 10px;
+	letter-spacing: 0;
+	text-transform: none;
+	margin-top: 0;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.secondary-title-2{
+	font-size: 40px;
+	color: #2b2929;
+	font-style: normal;
+	margin-top: 0;
+	text-align: center;
+	font-family: "Proxima Nova",sans-serif;
+	font-weight: 400;
+	line-height: 48px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.crovatto-text room {
+	color: #2b2929;
+	font-size: 16px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: left;
+	font-family: "Proxima Nova",sans-serif;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 10px;
+	letter-spacing: 0;
+	text-transform: none;
+	margin-top: 0;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.third-title {
+	color: #2b2929;
+	font-size: 20px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: left;
+	font-family: "Proxima Nova",sans-serif;
+	font-weight: 500;
+	line-height: 28px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.third-title {
+	width: 100%;
+	max-width: 1070px;
+	margin-top: 0;
+	min-height: auto;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.list-crovatto {
+	gap: 20px;
+	display: flex;
+	position: relative;
+	max-width: 1070px;
+	flex-direction: column;
+}
+.list-crovatto {
+	width: 100%;
+	box-sizing: border-box;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.list-crovatto {
+	gap: 15px;
+	display: flex;
+	position: relative;
+	max-width: 1070px;
+}
+
+.crovatto-text {
+	color: #2b2929;
+	font-size: 16px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: left;
+	font-family: "Proxima Nova",sans-serif;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	text-transform: none;
+}
