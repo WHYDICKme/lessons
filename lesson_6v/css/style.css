@@ -1,0 +1,171 @@
+/* Локальне підключення шрифтів */
+/* @import url("fonts.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+/* Скидання стилів */
+@import url(reset.css);
+
+
+
+.krovato {
+	padding: 50px 0;
+	background-color: #f8f8f8;
+	font-family: "Proxima Nova", sans-serif;
+	color: #2b2929;
+	line-height: 1.875;
+}
+
+.krovato__container {
+	max-width: 1070px;
+	margin: 0 auto;
+}
+ .krovato__container > *:not(:last-child) {
+	margin-bottom: 40px;
+}
+.krovato__title {
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 600;
+}
+.krovato__image {
+}
+.krovato__image img {
+	max-width: 100%;
+	border-radius: 8px;
+}
+.krovato__text {
+}
+.krovato__text p:not(:last-child) {
+	margin-bottom: 10px;
+}
+.krovato__assortment {
+}
+.krovato-assortment {
+}
+.krovato-assortment__title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.4;
+	margin-bottom: 30px;
+}
+.krovato-assortment__list {
+}
+.krovato-assortment__item {
+	padding-left: 47px;
+	background: url("../img/mark.png") 0 0 no-repeat;
+	margin-bottom: 20px;
+}
+
+.krovato__sum-up {
+} 
+/* ---------------------------------------------------------------- */
+
+.explore {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 500;
+	color: #fff;
+	background: url("../im");
+	background-size: cover;
+	background-color: #914cff;
+}
+.explore__container {
+	max-width: 1280px;
+	margin: 0 auto;
+	background: url("../img/kid-main.png") right no-repeat;
+	
+}
+.explore__body {
+	padding: 121px 0;
+	max-width: 600px;
+}
+ .explore__body > *:not(:last-child) {
+	margin-bottom: 24px;
+	
+}
+
+
+.explore__title {
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 700;
+	
+}
+.explore__text {
+	font-size: 20px;
+	line-height: 1.6;
+}
+.explore__text p:not(:last-child) {
+	margin-bottom: 10px;
+}
+.explore__button {
+	border-radius: 8px;
+	background-color: #fff;
+	color: #0d1216;
+	padding: 11.5px 20px;
+	font-weight: 700;
+	line-height: 1.5625;
+}
+
+/* -------------------------COLLECTION--------------------------------- */
+
+.collection {
+	font-family: "Roboto";
+	background:  url("../img/flower-pattern.png") center / contain no-repeat;
+	margin-bottom: 70px;
+}
+
+.collection__wrapper {
+	font-size: 0px;
+	width: 1226px;
+	margin: 0 auto;
+}
+
+.collection-item-first {
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 90px;
+	max-width: 686px;
+	padding: 74px 0px 124px 0px;
+}
+
+.collection-item-first__title {
+	color: #000;
+	font-size: 74px;
+	line-height: 74%;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin:  0px 0px 52px 0px; 
+}
+
+.collection-item-first__subtitle {
+	margin:  0px 0px 66px 0px; 
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 183%;
+	text-transform: capitalize;
+}
+
+.collection-item-first__button {
+	font-weight: 400;
+	font-size: 29px;
+	text-transform: capitalize;
+	color: white;
+	background-color: #000;
+	padding: 19px 26px;
+}
+
+.collection-item-secong {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 442px;
+	border-radius: 160px 0px ;
+	border: 2px solid rgba(62,59,59,0.2);
+	
+}  
+
+.collection-item-secong__img {
+	margin: -20px 18px 20px -18px;
+}
